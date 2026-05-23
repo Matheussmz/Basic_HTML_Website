@@ -1,2 +1,16 @@
 @charset "UTF-8";
 
+#cabeçalho{
+    border: 2px solid black;
+}
+#principal{
+    border: 2px solid black;
+}
+
+.artigos{
+    border: 2px solid black;
+    display: inline-block;
+}
+#rodapé{
+    border: 2px solid black;
+}
