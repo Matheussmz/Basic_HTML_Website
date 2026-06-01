@@ -1,15 +1,36 @@
 @charset "UTF-8";
 
+
+body{
+    width: 900px;
+    margin: auto;
+}
 #cabeçalho{
     border: 2px solid black;
+    display: flex;
 }
+
+#title{
+    display: block;
+}
+
+
 #principal{
     border: 2px solid black;
 }
 
-.artigos{
+main{
+    height: 500px;
+}
+#principal{
     border: 2px solid black;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.artigos{
+    flex: 1 1 200px;
+    flex-wrap: wrap;
 }
 #rodapé{
     border: 2px solid black;
