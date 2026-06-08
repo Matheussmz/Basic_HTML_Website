@@ -1,37 +1,35 @@
 @charset "UTF-8";
 
 
-body{
-    width: 900px;
-    margin: auto;
+
+body, ul , li , a{
+    text-decoration: none;
+    list-style: none;
 }
+
 #cabeçalho{
-    border: 2px solid black;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+}
+
+#menu > li > a{
+    padding: 10px;
+    margin: 5px;
+    color: black;
 }
 
 #title{
-    display: block;
+    text-align: center;
+    margin: 60px 0px;
 }
 
-
-#principal{
-    border: 2px solid black;
-}
-
-main{
-    height: 500px;
-}
 #principal{
     border: 2px solid black;
     display: flex;
-    flex-wrap: wrap;
-}
-
-.artigos{
-    flex: 1 1 200px;
-    flex-wrap: wrap;
-}
-#rodapé{
-    border: 2px solid black;
 }

@@ -6,6 +6,24 @@
     <title>Document</title>
 </head>
 <body>
+
+        <header id="cabeçalho">
+        <h2>Matheus Souza</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="title">
+            <h1>Frontend Developer</h2>
+            <p>html only whih proper layout, no styling</p>
+        </div>
+    </header>
     <!--
     Formulario deve conter campo com nome, e-mail e mensagem etc.
     -->
@@ -13,25 +31,27 @@
     <form action="cadastro.php" method="post">
 
         <div>
-            <label for="nome">Nome:</label>
+            <label for="inome">Nome:</label>
             <input type="text" id="inome" placeholder="João">
         </div>
         <br>
         <div>
-            <label for="sobrenome">Sobrenome:</label>
+            <label for="isobrenome">Sobrenome:</label>
             <input type="text" name="sobrenome" id="isobrenome" placeholder="Junior">
         </div>
         <br>
         <div>
-            <label for="e-mail">E-mail:</label>
+            <label for="iemail">E-mail:</label>
             <input type="email" name="email" id="iemail" placeholder="JJ2026@gmail.com">
         </div>
         <br>
         <div>
-            <label for="comentario">Deixe seu comentário:</label>
+            <label for="comentario" >Deixe seu comentário:</label>
             <br>
             <textarea name="comentario" id="icomentario"></textarea>
         </div>
+        <br>
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
