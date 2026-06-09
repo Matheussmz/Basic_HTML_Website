@@ -32,4 +32,17 @@ body, ul , li , a{
 #principal{
     border: 2px solid black;
     display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+}
+
+article{
+    flex: 1 1 300px;
+    border: 2px solid black;
+    padding: 30px;
+    width: 300px;
+    
+
+
 }
