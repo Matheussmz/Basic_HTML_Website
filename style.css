@@ -1,48 +1,66 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap');
 
 
+:root{
+    --fonte-padrao:arial, verdana, helvetica, sans-serif;
+    --fonte-title: 'Edu', cursive;
+}
 
-body, ul , li , a{
+* , a, ul, li{
+    margin: 0px;
     text-decoration: none;
     list-style: none;
+}
+
+body{
+    min-height: 100vh;
+}
+
+header{   
+    border: 2px solid black;
+    margin: 1.5rem;
+    padding: 3rem;
 }
 
 #cabeçalho{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     align-items: center;
+    padding: 1rem;
 }
 
-#menu{
+nav > ul{
     display: flex;
+    gap: 1.5rem;
 }
-
-#menu > li > a{
-    padding: 10px;
-    margin: 5px;
+nav > ul > li > a{
+    padding: 1rem;
     color: black;
 }
 
 #title{
     text-align: center;
-    margin: 60px 0px;
+    
+    margin-top: 3rem;
+    font-family: var(--fonte-title);
 }
 
-#principal{
+#title > h1{
+    font-weight: bold;
+}
+
+#title > p {
+    font-family: var(--fonte-padrao);
+    color: gray;
+    margin-top:10px;
+}
+
+main{
+    height: 300px;
+    width: 700px;
+    margin: auto;
     border: 2px solid black;
     display: flex;
-    flex-wrap: wrap;
-    max-width: 1500px;
-    margin: auto;
-}
-
-article{
-    flex: 1 1 300px;
-    border: 2px solid black;
-    padding: 30px;
-    width: 300px;
-    
-
-
+    flex-direction: row;   
 }
