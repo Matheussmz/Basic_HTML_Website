@@ -70,43 +70,18 @@ main{
     flex-direction: row;   
 }
 
-article{
+
+#article{
     border: 1px solid black;
     padding: 1.4rem;
     width: 300px;
     font-size: 20px;
-}
-
-.Projects h3{
-    text-align: center;
-}
-
-.Projects p{
-    padding: 20px;
-}
-
-.Work{
-    h3{
-        text-align: center;
-    }
-
-    p ,a {
-        padding: 4px 10px;
-    }
-
-    a{
-        color: blue;
-    }
-}
-
-.Education{
 
     h3{
         text-align: center;
     }
-
-    p{
-        padding: 4px 10px;
+    p,a{
+        padding: 15px;
     }
 }
 
@@ -142,4 +117,14 @@ footer {
     margin-top: 2rem; 
     padding: 1rem;
     width: 100%;
+}
+
+
+/*Style da pagina projects*/
+
+#mainP{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    border: 2px solid black;
 }
