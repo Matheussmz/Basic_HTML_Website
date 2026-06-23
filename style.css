@@ -61,7 +61,7 @@ nav > ul > li > a{
     margin-top:10px;
 }
 
-main{
+#principal{
     flex:1;
     height: 300px;
     width: 900px;
@@ -126,5 +126,32 @@ footer {
     display: flex;
     flex-direction: column;
     width: 900px;
-    border: 2px solid black;
+    flex:1;
+    margin:0px auto;
 }
+
+.articleP{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+    h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    p{
+        margin-bottom: 30px;
+    }
+}
+
+.articleP img{
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+
+/*Style da pagina articles*/

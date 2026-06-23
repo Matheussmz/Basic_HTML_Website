@@ -8,23 +8,62 @@
 </head>
 <body>
 
-        <header id="cabeçalho">
-        <h2>Matheus Souza</h1>
-        
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="articles.html">Articles</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+   <header>
+        <div id="cabeçalho">
+            <h2>Matheus Souza</h1>
+            
+            <nav>
+                <ul id="menu">
+                    <li><a href="#">Home</a></li><span>/</span>
+                    <li><a href="projects.html">Projects</a></li><span>/</span>
+                    <li><a href="articles.html">Articles</a></li><span>/</span>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
 
+        <div id="title">
+            <h1>Frontend Developer</h1>
+            <p>html only whih proper layout, no styling</p>
+        </div>
     </header>
     <!--
     Formulario deve conter campo com nome, e-mail e mensagem etc.
     -->
-    <div id="Midias">
+
+    <fieldset>
+        <legend>
+            <h2>Formulario para contato</h2>
+        </legend>
+        <form action="cadastro.php" method="post">
+            <div>
+                <label for="inome">Nome:</label>
+                <input type="text" id="inome" placeholder="João" required maxlength="15">
+            </div>
+            <br>
+            <div>
+                <label for="isobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="isobrenome" placeholder="Junior">
+            </div>
+            <br>
+            <div>
+                <label for="iemail">E-mail:</label >
+                <input type="email" name="email" id="iemail" placeholder="JJ2026@gmail.com" required>
+            </div>
+            <br>
+            <div>
+                <label for="icomentario" >Deixe seu comentário:</label>
+                <br>
+                <textarea name="comentario" id="icomentario" required></textarea>
+            </div>
+            <br>
+            <input type="submit" value="Enviar">
+        
+            <input type="reset" value="Limpar">
+        </form>
+    </fieldset>
+
+        <div id="Midias">
         <h2>Midias</h2>
 
         <a href="#">Linkedin</a>
@@ -34,33 +73,5 @@
 
 
     </div>
-    <h2>Formulario para contato</h2>
-    <form action="cadastro.php" method="post">
-
-        <div>
-            <label for="inome">Nome:</label>
-            <input type="text" id="inome" placeholder="João" required maxlength="15">
-        </div>
-        <br>
-        <div>
-            <label for="isobrenome">Sobrenome:</label>
-            <input type="text" name="sobrenome" id="isobrenome" placeholder="Junior">
-        </div>
-        <br>
-        <div>
-            <label for="iemail">E-mail:</label >
-            <input type="email" name="email" id="iemail" placeholder="JJ2026@gmail.com" required>
-        </div>
-        <br>
-        <div>
-            <label for="icomentario" >Deixe seu comentário:</label>
-            <br>
-            <textarea name="comentario" id="icomentario" required></textarea>
-        </div>
-        <br>
-        <input type="submit" value="Enviar">
-        
-        <input type="reset" value="Limpar">
-    </form>
 </body>
 </html>
