@@ -31,47 +31,51 @@
     Formulario deve conter campo com nome, e-mail e mensagem etc.
     -->
 
-    <fieldset>
-        <legend>
-            <h2>Formulario para contato</h2>
-        </legend>
-        <form action="cadastro.php" method="post">
-            <div>
-                <label for="inome">Nome:</label>
-                <input type="text" id="inome" placeholder="João" required maxlength="15">
-            </div>
-            <br>
-            <div>
-                <label for="isobrenome">Sobrenome:</label>
-                <input type="text" name="sobrenome" id="isobrenome" placeholder="Junior">
-            </div>
-            <br>
-            <div>
-                <label for="iemail">E-mail:</label >
-                <input type="email" name="email" id="iemail" placeholder="JJ2026@gmail.com" required>
-            </div>
-            <br>
-            <div>
-                <label for="icomentario" >Deixe seu comentário:</label>
+    <main id="mainC">
+        <fieldset id="formulario">
+            <legend>
+                <h2>Formulario para contato</h2>
+            </legend>
+            <form action="cadastro.php" method="post">
+                <div>
+                    <label for="inome">Nome:</label><br>
+                    <input type="text" id="inome" placeholder="João" required maxlength="15">
+                </div>
                 <br>
-                <textarea name="comentario" id="icomentario" required></textarea>
-            </div>
-            <br>
-            <input type="submit" value="Enviar">
+                <div>
+                    <label for="isobrenome">Sobrenome:</label><br>
+                    <input type="text" name="sobrenome" id="isobrenome" placeholder="Junior">
+                </div>
+                <br>
+                <div>
+                    <label for="iemail">E-mail:</label ><br>
+                    <input type="email" name="email" id="iemail" placeholder="JJ2026@gmail.com" required>
+                </div>
+                <br>
+                <div>
+                    <label for="icomentario" >Deixe seu comentário:</label>
+                    <br>
+                    <textarea name="comentario" id="icomentario" ></textarea>
+                </div>
+                <br>
+                <input type="submit" value="Enviar">
         
-            <input type="reset" value="Limpar">
-        </form>
-    </fieldset>
+                <input type="reset" value="Limpar">
+            </form>
+        </fieldset>
+    </main>
+    <article>
+        <div id="midias">
+            <h2>Midias</h2>
+            <a href="#"><img src="icons/linkedin.png" alt="icon linkedin"></img></a>
+            <a href="#"><img src="icons/instagram.png" alt="icon instagram"></a>
+            <a href="#"><img src="icons/github.png" alt="icon github"></img></a>
+            <a href="#"><img src="icons/youtube.png" alt="icon youtube"></a>
+        </div>
+    </article>
 
-        <div id="Midias">
-        <h2>Midias</h2>
-
-        <a href="#">Linkedin</a>
-        <a href="#">Instagram</a>
-        <a href="#">Github</a>
-        <a href="#">Youtube</a>
-
-
-    </div>
+    <footer id="rodapé">
+        <p>Feito por Matheus</p>
+    </footer>
 </body>
 </html>

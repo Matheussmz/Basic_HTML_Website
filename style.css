@@ -162,7 +162,7 @@ footer {
     width: 900px;
     flex:1;
     margin:0px auto;
-    border: 1px solid black;
+    border: 1px solid #00000067;
     padding: 2rem;
 
     h2{
@@ -174,4 +174,42 @@ footer {
         padding: 1rem 3rem;
         text-align: justify;
     }
+}
+
+
+/*Style do contact*/
+
+#mainC{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    flex:1;
+    margin: 0 auto;
+}
+
+#formulario{
+    text-align: center;
+    textarea{
+        width: 400px;
+        height: 100px;
+    }
+}
+
+
+
+#midias{
+    width: 900px;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 2rem;
+    border: 1px solid #00000067;
+    text-align: center;
+    flex: 1;
+
+    img{
+        padding: 0.5rem;
+        width: 3rem;
+    }
+
+
 }
