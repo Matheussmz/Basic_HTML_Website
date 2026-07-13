@@ -11,7 +11,7 @@
  
  Esse projeto cumpre os requisitos que o desafio pede.
 
-     Estrutura HTML semanticamente correta.
+    Estrutura HTML semanticamente correta.
 
     Várias páginas com uma barra de navegação.
 
