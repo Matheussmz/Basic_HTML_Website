@@ -282,6 +282,36 @@ footer {
     footer{
         width: 100vw;
     }
+
+    /*Pagina projetos*/
+    #mainP{
+        width: 100vw;
+    }
+
+    /*Pagina articles*/
+    #mainA{
+        width: 100vw;
+
+        p{
+            padding: 1.4rem;
+        }
+    }
+
+    /*pagina contato*/
+    #mainC{
+        width: 100vw;
+    }
+    #formulario{
+        width: 100vw;
+        padding: 1rem;
+
+        textarea{
+            width: 20rem;
+        }
+    }
+    #midias{
+        width: 100vw;
+    }
 }
 
 /*paisagem*/
